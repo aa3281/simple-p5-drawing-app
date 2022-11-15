@@ -8,5 +8,5 @@ function setup()
 function draw()
 {
 	fill(0,0,0)
-	ellipse(mouseX,mouseY,10,10)
+	line(mouseX,mouseY,pmouseX,pmouseY)
 }
